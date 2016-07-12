@@ -172,7 +172,7 @@ that you created in **Prerequisites**.
 
 4. Deploy the application to App Engine.
 
-        $ gcloud preview app deploy --version=1 gae/app.yaml \
+        $ gcloud app deploy --version=1 gae/app.yaml \
           gae/cron.yaml
 
 After you deploy the App Engine application it uses the App Engine Cron Service
